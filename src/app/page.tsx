@@ -1,4 +1,5 @@
 import { HeroForm } from '@/components/form';
+import Test from '../components/Test'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <div className="mt-1">
         <HeroForm />
       </div>
+      <Test/>
     </section>
   );
 };
